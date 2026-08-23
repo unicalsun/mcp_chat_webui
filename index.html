@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP Debug WebUI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 侧边栏 -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h1>MCP Debug</h1>
+            </div>
+            <div class="sidebar-nav">
+                <div class="nav-item active" onclick="App.showView('chat')">Chat</div>
+                <div class="nav-item" onclick="App.showView('mcp-servers')">MCP Servers</div>
+            </div>
+            <div class="sidebar-status" id="globalStatus"></div>
+        </div>
+
+        <!-- 主内容区 -->
+        <div class="main-content">
+            <div id="viewContainer"></div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/views/chat.js"></script>
+    <script src="js/views/mcp-servers.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

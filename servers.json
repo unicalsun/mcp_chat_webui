@@ -1,0 +1,14 @@
+[
+  {
+    "server_id": "mcp_20260823180208_93696bfe",
+    "name": "mysql_mcp",
+    "description": "",
+    "server_type": "streamable-http",
+    "transport_config": {
+      "url": "http://192.168.3.138:8000/mcp",
+      "headers": {}
+    },
+    "created_at": "2026-08-23T10:02:08.797600",
+    "updated_at": "2026-08-23T10:11:09.217481"
+  }
+]
