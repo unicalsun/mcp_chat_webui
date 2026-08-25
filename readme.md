@@ -15,6 +15,10 @@ MCP Debug WebUI - 用于调试 MCP Server 的聊天界面工具，支持自然�
 
 python3 -m pip install fastapi mcp dotenv httpx --break-system-packages --ignore-installed
 
+cd C:\oc_workspace\deepagents\webui_no_store
+python -m backend.main --port 9000
+
+访问 http://localhost:9000
 
 ```
 
