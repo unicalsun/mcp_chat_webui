@@ -11,6 +11,13 @@ MCP Debug WebUI - 用于调试 MCP Server 的聊天界面工具，支持自然�
 - **ORM**: 无数据库，使用 JSON 文件存储 MCP 配置
 - **LLM 支持**: OpenAI / DeepSeek / Anthropic（在 .env 配置）
 
+```commandline
+
+python3 -m pip install fastapi mcp dotenv httpx --break-system-packages --ignore-installed
+
+
+```
+
 ## 架构
 
 ### 目录结构

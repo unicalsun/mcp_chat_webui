@@ -22,5 +22,53 @@
     },
     "created_at": "2026-08-23T12:35:29.343957",
     "updated_at": "2026-08-23T12:36:04.586915"
+  },
+  {
+    "server_id": "mcp_20260824171927_e9752980",
+    "name": "mongo_mcp",
+    "description": "",
+    "server_type": "streamable-http",
+    "transport_config": {
+      "url": "http://192.168.3.138:8001/mcp",
+      "headers": {}
+    },
+    "created_at": "2026-08-24T09:19:27.590858",
+    "updated_at": "2026-08-24T09:19:27.590858"
+  },
+  {
+    "server_id": "mcp_20260824173633_ee57e3db",
+    "name": "es_mcp",
+    "description": "",
+    "server_type": "streamable-http",
+    "transport_config": {
+      "url": "http://192.168.3.138:8001/mcp",
+      "headers": {}
+    },
+    "created_at": "2026-08-24T09:36:33.510854",
+    "updated_at": "2026-08-24T09:36:33.510854"
+  },
+  {
+    "server_id": "mcp_20260824175221_3b953a5f",
+    "name": "pg_mcp",
+    "description": "",
+    "server_type": "streamable-http",
+    "transport_config": {
+      "url": "http://192.168.3.138:8002/mcp",
+      "headers": {}
+    },
+    "created_at": "2026-08-24T09:52:21.328275",
+    "updated_at": "2026-08-24T09:52:21.328275"
+  },
+  {
+    "server_id": "mcp_20260825131224_7cd4106c",
+    "name": "redis_mcp",
+    "description": "",
+    "server_type": "streamable-http",
+    "transport_config": {
+      "url": "http://192.168.3.138:8003/mcp",
+      "headers": {}
+    },
+    "created_at": "2026-08-25T05:12:24.234605",
+    "updated_at": "2026-08-25T06:12:05.211597"
   }
 ]
